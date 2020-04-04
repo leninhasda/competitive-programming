@@ -1,0 +1,11 @@
+.idea
+.settings
+.DS_Store
+.pyc
+.vscode
+
+./node_models
+./data
+./bin
+./tmp
+./dist
