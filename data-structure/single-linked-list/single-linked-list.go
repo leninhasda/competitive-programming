@@ -34,6 +34,18 @@ func (l *list) print() {
 	println()
 }
 
+func (l *list) reverse() {
+	tmp := l.head
+	var prev *node
+	for tmp != nil {
+		t2 := tmp.next
+		tmp.next = prev
+		prev = tmp
+		tmp = t2
+	}
+	l.head = prev
+}
+
 func (l *list) search(data int) bool {
 	tmp := l.head
 	for tmp != nil {
@@ -70,12 +82,13 @@ func RunExample() {
 	lst.insert(30)
 	lst.insert(40)
 	lst.print()
-	println(lst.search(30))
-	println(lst.search(70))
-	lst.remove(10)
-	lst.print()
-	lst.remove(30)
-	lst.print()
-	lst.remove(40)
+	// println(lst.search(30))
+	// println(lst.search(70))
+	// lst.remove(10)
+	// lst.print()
+	// lst.remove(30)
+	// lst.print()
+	// lst.remove(40)
+	lst.reverse()
 	lst.print()
 }

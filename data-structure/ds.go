@@ -1,10 +1,10 @@
 package ds
 
-import circularlinkedlist "com-prog/data-structure/circular-linked-list"
+import singlelinkedlist "com-prog/data-structure/single-linked-list"
 
 // RunSingleLinkedListExample ...
 func RunSingleLinkedListExample() {
-	// singlelinkedlist.RunExample()
+	singlelinkedlist.RunExample()
 	// doublelinkedlist.RunExample()
-	circularlinkedlist.RunExample()
+	// circularlinkedlist.RunExample()
 }
