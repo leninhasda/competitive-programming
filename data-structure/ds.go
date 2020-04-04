@@ -1,10 +1,11 @@
 package ds
 
-import singlelinkedlist "com-prog/data-structure/single-linked-list"
+import "com-prog/data-structure/tree"
 
 // RunSingleLinkedListExample ...
 func RunSingleLinkedListExample() {
-	singlelinkedlist.RunExample()
+	// singlelinkedlist.RunExample()
 	// doublelinkedlist.RunExample()
 	// circularlinkedlist.RunExample()
+	tree.RunExample()
 }
