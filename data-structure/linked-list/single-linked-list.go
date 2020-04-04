@@ -1,4 +1,4 @@
-package main
+package linkedlist
 
 import "fmt"
 
@@ -63,7 +63,7 @@ func (l *list) remove(data int) {
 	}
 }
 
-func main() {
+func RunExample() {
 	lst := new(list)
 	lst.insert(10)
 	lst.insert(20)
