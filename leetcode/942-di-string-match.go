@@ -1,3 +1,5 @@
+package leetcode 
+
 func diStringMatch(S string) []int {
   i, k, d := 0, 0, len(S)
   

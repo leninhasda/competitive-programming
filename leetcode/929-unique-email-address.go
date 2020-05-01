@@ -1,3 +1,5 @@
+package leetcode 
+
 import "strings"
 
 func numUniqueEmails(emails []string) int {

@@ -1,3 +1,5 @@
+package leetcode 
+
 func grayCode(n int) []int {
   ln := 1 << uint(n)
   ret := make([]int, ln)

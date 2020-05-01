@@ -5,6 +5,7 @@
  *     Next *ListNode
  * }
  */
+ package leetcode
 
 func print(n int) *ListNode {
   return &ListNode{n, nil}

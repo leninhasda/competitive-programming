@@ -1,3 +1,5 @@
+package leetcode 
+
 var mem = make(map[int]int)
 func fib(N int) int {
   if N == 0 || N == 1 {

@@ -1,3 +1,5 @@
+package leetcode 
+
 func isOneBitCharacter(bits []int) bool {
   var char bool 
   for i:=0; i<len(bits); i++ {

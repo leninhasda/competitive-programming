@@ -1,3 +1,5 @@
+package leetcode 
+
 func sortArrayByParity(A []int) []int {
   ans := make([]int, len(A))
   i, k := 0, len(A) - 1

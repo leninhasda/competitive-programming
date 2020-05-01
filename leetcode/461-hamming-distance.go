@@ -1,3 +1,5 @@
+package leetcode 
+
 import "strconv"
 func hammingDistance(x int, y int) int {
 	xs := strconv.FormatInt(int64(x), 2)

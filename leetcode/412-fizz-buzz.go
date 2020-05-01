@@ -1,3 +1,5 @@
+package leetcode 
+
 import "strconv"
 func fizzBuzz(n int) []string {
   ret := make([]string, n)

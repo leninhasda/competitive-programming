@@ -1,3 +1,5 @@
+package leetcode 
+
 func intersection(nums1 []int, nums2 []int) []int {
   
   mp := make(map[int]int) 

@@ -7,5 +7,7 @@ func RunSingleLinkedListExample() {
 	// singlelinkedlist.RunExample()
 	// doublelinkedlist.RunExample()
 	// circularlinkedlist.RunExample()
-	tree.RunExample()
+	tree.RunBSTExample()
+	println()
+	tree.RunTreeExample()
 }

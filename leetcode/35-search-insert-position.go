@@ -1,3 +1,5 @@
+package leetcode 
+
 func searchInsert(nums []int, target int) int {
   return bSearch(nums, target, 0, len(nums)-1)
 }

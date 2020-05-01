@@ -1,3 +1,5 @@
+package leetcode 
+
 func sumEvenAfterQueries(A []int, queries [][]int) []int {
   ret := make([]int, len(queries))   
   av := 0

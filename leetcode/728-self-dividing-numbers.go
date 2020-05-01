@@ -1,3 +1,5 @@
+package leetcode 
+
 var mp = make(map[int]struct{})
 func selfDividingNumbers(left int, right int) []int {
   ret := []int{}

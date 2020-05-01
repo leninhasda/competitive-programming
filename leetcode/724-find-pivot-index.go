@@ -1,3 +1,5 @@
+package leetcode 
+
 func pivotIndex(nums []int) int {
   total := 0
   sums := make([]int, len(nums))

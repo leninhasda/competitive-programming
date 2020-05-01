@@ -1,3 +1,5 @@
+package leetcode 
+
 func judgeCircle(moves string) bool {
   var is int
   for _, r := range moves {

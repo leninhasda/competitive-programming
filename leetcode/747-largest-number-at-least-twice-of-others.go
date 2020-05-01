@@ -1,3 +1,5 @@
+package leetcode 
+
 func dominantIndex(nums []int) int {
   if len(nums) == 0 {
     return -1 

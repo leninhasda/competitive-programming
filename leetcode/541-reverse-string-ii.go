@@ -1,3 +1,5 @@
+package leetcode 
+
 func reverseStr(s string, k int) string {
 
 	bt := make([]byte, len(s))

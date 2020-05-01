@@ -1,3 +1,5 @@
+package leetcode 
+
 func minDeletionSize(A []string) int {
 	var d int
 	for c, _ := range A[0] {
