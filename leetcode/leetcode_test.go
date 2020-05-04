@@ -4,7 +4,19 @@ import (
 	"testing"
 )
 
-func Test_stringContain(t *testing.T){
+func Test_bitwiseComplement(t *testing.T) {
+	n := bitwiseComplement(10)
+	t.Error("sdfd", n)
+}
+
+func Test_firstUniqChar(t *testing.T) {
+	n := firstUniqChar("loveleetcode")
+	if n != 0 {
+		t.Error("f", n)
+	}
+}
+
+func Test_stringContain(t *testing.T) {
 
 	//ss := []string{"mass","as","hero","superhero"}
 	//a := stringMatching(ss)
@@ -16,13 +28,13 @@ func Test_stringContain(t *testing.T){
 
 func Test_lengthOfLongestSubstring(t *testing.T) {
 	testdata := []struct {
-		s string
+		s   string
 		exp int
 	}{
-		{"abcabcbb",3 },
-		{"bbbbbb",1 },
-		{"pwwkew",3 },
-		{" ",1 },
+		{"abcabcbb", 3},
+		{"bbbbbb", 1},
+		{"pwwkew", 3},
+		{" ", 1},
 	}
 
 	for _, td := range testdata {
